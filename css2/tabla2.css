@@ -1,0 +1,62 @@
+th, td,th{
+    border: solid 1px rgb(12, 11, 11);
+    text-align: center;
+    padding: 9px 9px; 
+    min-width:70%;
+    font-size: .9vw;
+
+    
+   
+}
+input{
+  width: 99%;
+  height: 70px;
+  font-size: .7vw;
+  text-align: center;
+  border: none;
+}
+input:focus{
+  outline: none;
+}
+body{
+    background-image: url(../imagenes/tabla.jpg);
+    background-size: cover;
+}
+
+table{
+    border-collapse: collapse;
+    display: flex;
+    justify-content: center;
+  
+  
+  
+}
+h2{
+  text-align: center;
+  color: rgb(15, 14, 15);
+  
+}
+
+.fecha{
+  font-weight: bold;
+  font-size: 18px;
+  
+}
+
+tr{
+  background-color: rgb(178, 181, 186);
+}
+
+.titulo1{
+  background-color: rgb(247, 127, 6);
+  font-weight: bold;
+
+}
+
+
+
+.reducir{
+    max-width: 100px;
+    display: block;
+    margin: 0 0 0 auto;
+}
