@@ -1,0 +1,86 @@
+th, td,th{
+    border: solid 1px rgb(12, 11, 11);
+    text-align: center;
+    padding: 10px 10px; 
+    min-width:80%;
+    font-size: 1vw;
+    width:500px;
+
+    
+   
+}
+input{
+  width: 99%;
+  height: 70px;
+  font-size: .8vw;
+  text-align: center;
+  border: none;
+}
+input:focus{
+  outline: none;
+}
+body{
+    background-image: url(../imagenes/fondo1.jpg);
+    background-size: cover;
+}
+
+table{
+    border-collapse: collapse;
+    display: flex;
+    justify-content: center;
+  
+  
+  
+}
+h2{
+  text-align: center;
+  color: rgb(15, 14, 15);
+  
+}
+
+.fecha{
+  font-weight: bold;
+  font-size: 18px;
+  
+}
+
+tr{
+  background-color: rgb(178, 181, 186);
+}
+
+.titulo1{
+  background-color: rgb(247, 127, 6);
+  font-weight: bold;
+
+}
+
+.titulo2{
+  background-color: rgb(79, 85, 163);
+  font-weight: bold;
+
+}
+.titulo3{
+  background-color: rgb(252, 255, 61);
+  font-weight: bold;
+
+}
+.titulo4{
+  background-color: rgb(59, 230, 87);
+  font-weight: bold;
+
+}
+
+
+.titulo5{
+  background-color: rgb(75, 234, 240);
+  font-weight: bold;
+
+}
+
+
+
+.reducir{
+    max-width: 100px;
+    display: block;
+    margin: 0 0 0 auto;
+}
